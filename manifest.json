@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "NFS-e Auto Preenchimento",
+  "name": "Neco-Arc serviços de fraude fiscal LTDA",
   "version": "1.0",
   "description": "Preenche automaticamente campos da Nota Fiscal no portal NFS-e",
   "permissions": [
@@ -12,7 +12,7 @@
   "browser_action": {
     "default_popup": "popup/popup.html",
     "default_icon": "content/icon.png",
-    "default_title": "NFS-e Auto Preenchimento"
+    "default_title": "Neco-Arc serviços de fraude fiscal LTDA"
   },
   "content_scripts": [
     {
