@@ -1,0 +1,46 @@
+{
+  "regimeApuracao": "",
+  "localPrestacao": {
+    "municipio": ""
+  },
+  "tomador": {
+    "localDomicilio": "",
+    "nifInformado": "",
+    "nif": "",
+    "nome": "",
+    "telefone": "",
+    "email": "",
+    "endereco": {
+      "logradouro": "",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "cep": "",
+      "estado": "",
+      "codigoPais": ""
+    }
+  },
+  "servicoPrestado": {
+    "codigoTributacao": "",
+    "codigoComplementarMunicipal": "",
+    "exportacaoImunidade": "",
+    "motivoNaoTributacao": "",
+    "codigoPaisResultado": "",
+    "descricao": "",
+    "codigoNBS": ""
+  },
+  "comercioExterior": {
+    "modoPrestacao": "",
+    "vinculoPrestacao": "",
+    "tipoMoeda": "",
+    "mecanismoApoioPrestador": "",
+    "mecanismoApoioTomador": "",
+    "movimentacaoTempBens": "",
+    "compartilharComMDIC": ""
+  },
+  "tributacaoFederal": {
+    "situacaoTributaria": "",
+    "tipoRetencao": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "NFS-e Auto Preenchimento",
+  "version": "1.0",
+  "description": "Preenche automaticamente campos da Nota Fiscal no portal NFS-e",
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "48": "content/icon.png"
+  },
+  "browser_action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "content/icon.png",
+    "default_title": "NFS-e Auto Preenchimento"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.nfse.gov.br/*"],
+      "js": [
+        "content/messaging.js",
+        "content/config.js",
+        "content/state.js",
+        "content/helpers.js",
+        "content/tab1/emitente.js",
+        "content/tab1/tomador.js",
+        "content/tab2/localPrestacao.js",
+        "content/tab2/servicoPrestado.js",
+        "content/tab2/comercioExterior.js",
+        "content/tab3/valorServico.js",
+        "content/tab3/tributacaoFederal.js",
+        "content/content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": ["config.json", "config.local.json"]
+}
